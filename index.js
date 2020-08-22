@@ -1,11 +1,22 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
+let votingAge= 18
 
+    if (votingAge > 18) {
+        console.log(true);
+    }
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+
+let age1 = 23
+const age2 = 24
+    if(age1===23){
+    age1 === age2
+    console.log(age1, "reassignVariable")
+    }
 
 
 
@@ -14,11 +25,20 @@
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
 
 
+let convertString = Number("1999");
+console.log(convertString, "1999")
+
+
 
 
 
 //Task d: Write a function to multiply a*b 
 
+function mathProblem(a,b){
+    let multiply = a*b
+    console.log(multiply, "mathProblem")
+}
+mathProblem(2,4)
 
 
 
@@ -27,7 +47,10 @@
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
 
-
+// function(){
+//     let age= 23;
+//     age * 7;
+// }
 
 
 
@@ -112,7 +135,16 @@
 //Take Rock, Paper, Sissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
 
-
+    // let rockPaperScissors=Math.round(Math.random());
+    //     if(rockPaperScissors===1){
+    //         console.log("Rock");
+    //     }
+    //     if (rockPaperScissors<1){
+    //         console.log("Paper");
+    //     }
+    //     if (rockPaperScissors>1){
+    //         console.log("Scissors");
+    //     }
 
 
 
